@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i'); 
+*{
+	font-family: 'Lato', sans-serif;
+}
+ion-header.md.header-md.hydrated{
+	background-color:#35A0CD;
+}
+ion-toolbar.md.hydrated{
+	--background: var(--ion-toolbar-background,var(--ion-background-color,#35A0CD));
+	background-color:#35A0CD;
+}
+ion-buttons.sc-ion-buttons-md-h.sc-ion-buttons-md-s.md.hydrated {
+    font-size: 25px;
+    color: #fff;
+}
+ 
+.top-head{
+	text-align: center;
+ 
+}
+.top-head p{
+	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0;
+}
+.top-headtitle{
+	text-align: center;
+}
+.top-headtitle p{
+	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 0;
+}
+.user-listing ion-img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+ion-thumbnail {
+	float: left;
+    height: 70px;
+    margin: 0 19px 14px 0;
+    width: 70px;
+}
+ 
+ion-card-title.md.hydrated {
+    font-size: 17px;
+    line-height: 2.2;
+    color: #000;
+    font-weight: 600;
+}
+.picker-wrapper.sc-ion-picker-md{
+	transform: translateY(-80%) !important;
+}
+.picker-wrapper.sc-ion-picker-md {
+    border-radius: var(--border-radius);
+    left: 0;
+    right: 0;
+    top: 0 !important;
+}
+.sc-ion-label-md-s > p {
+    color: var(--ion-color-step-600,#000);
+    font-size: 13px;
+}
+.locate ion-icon.md.hydrated {
+    font-size: 21px;
+	transform: translatey(5px);
+}
+.down{
+    color: #000;
+}
+.locate{
+    color: #ccc;
+	float:right;
+	
+}
+.sc-ion-picker-md-h {
+    --background: var(--ion-background-color,#fead18);
+}
+.picker-columns.sc-ion-picker-md {
+    background: #fead18 none repeat scroll 0 0;
+}
+.sc-ion-picker-md-h {
+    --background: var(--ion-background-color,#fead18);
+    --border-width: 0.55px 0 0;
+    --border-color: var(--ion-item-border-color,var(--ion-border-color,var(--ion-color-step-150,rgba(0,0,0,0.13))));
+    --height: 260px;
+    color: var(--ion-item-color,var(--ion-text-color,#000));
+}
+.sc-ion-picker-md-h {
+    --background: var(--ion-background-color,#35A0CD);
+}
+.item-datetime ion-datetime {
+    text-align: right;
+}
+.badge{
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+.badge {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+}
+.badge ion-card-title.md.hydrated{
+	color:#35A0CD;
+	transform: translate(22px);
+}
+.badge ion-card-subtitle.md.hydrated {
+    font-size: 14px;
+    color: #000;
+    margin: -7px;
+}
+.locateicon {
+	color:#35a0cd;
+}

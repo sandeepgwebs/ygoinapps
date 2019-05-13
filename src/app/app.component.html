@@ -1,0 +1,35 @@
+ 
+<ion-app class="naver">
+  <ion-split-pane>
+    <ion-menu>
+ 
+      <ion-header>	  
+        <ion-toolbar>
+		  <ion-img class="fix-logo" src="../assets/icon/small.png"></ion-img>
+        </ion-toolbar>
+		
+<!-- user login images code  -->		
+		<!--ion-item class="user-profile">
+		  <ion-thumbnail slot="start">
+			 <ion-img class="fix-logos" src="../assets/icon/images3.jpg"></ion-img>
+		  </ion-thumbnail>
+		  <ion-label>john</ion-label>
+		</ion-item-->
+<!-- user login images code  end-->		
+      </ion-header>
+	  
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+               <ion-label class="nav-bar"><p>{{p.title}}</p>
+				<!--ion-icon slot="start" [name]="p.icon"></ion-icon--></ion-label>
+			    
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

@@ -1,0 +1,7 @@
+{
+  "name": "ygoin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
